@@ -64,5 +64,6 @@ public class ProjectSummary extends DocumentSummary<Project> {
         copyField(document, copy, _Fields.CLEARING_TEAM);
         copyField(document, copy, _Fields.BUSINESS_UNIT);
         copyField(document, copy, _Fields.PROJECT_RESPONSIBLE);
+        copyField(document, copy, _Fields.RELEASE_ID_TO_USAGE);
     }
 }
